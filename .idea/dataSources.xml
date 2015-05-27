@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="801907653">
+    <data-source source="LOCAL" name="Rails Aarohan: development" uuid="12d37544-beda-49b5-8d1c-76ef1b02c85f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/Aarohan_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Aarohan: test" uuid="b1d1c852-605e-43a3-bfa5-6b63d6dfc30a">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/Aarohan_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Aarohan: production" uuid="e4187e4a-24a5-4a51-90e8-4b5033c6ec71">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/Aarohan_production</jdbc-url>
+      <user-name>Aarohan</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfebdff8dfe5dfe2dfebdfe4dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
