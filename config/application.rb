@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module Aarohan
   class Application < Rails::Application
+
+    require_relative '../lib/global_constant'
     
     config.to_prepare do
       # Load application's model / class decorators
@@ -19,6 +21,22 @@ module Aarohan
       Dir.glob(File.join(File.dirname(__FILE__), "../app/overrides/*.rb")) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
+    end
+
+    def javascript_manifest_files(loc = '')
+      Dir.chdir("#{Rails.root}/app/assets/javascripts/") do
+        Dir["#{loc}*.js"]
+      end
+    end
+
+    def stylesheet_manifest_files(loc = '')
+      Dir.chdir("#{Rails.root}/app/assets/stylesheets/") do
+        Dir["#{loc}*.css.scss"]
+      end
+    end
+
+    ['', 'store/web/', 'store/web/theme'].each do |loc|
+      config.assets.precompile += javascript_manifest_files(loc) + stylesheet_manifest_files(loc)
     end
 
     # Settings in config/environments/* take precedence over those specified here.

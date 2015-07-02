@@ -1,0 +1,337 @@
+// Place all the styles related to the web/home_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@import "store/dilseprints-variables";
+
+#dilseprintsWrapper {
+  position: relative;
+  left: 0;
+}
+
+.home_carousel{
+  position: relative;
+}
+
+/*.carousel-header{
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 45%;
+  margin-top: -35px;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  z-index: 999;
+}
+
+.carousel-header span{
+  background-color: #fff;
+  padding: 10px 30px;
+}
+
+.carousel-header-copy{
+  display: none;
+}
+*/
+
+.btn-home-shop-now{
+  font-size: 16px;
+}
+
+
+
+.carousel-link{
+  width: 140px;
+  background-color: #fff;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: 45px;
+  left: 50%;
+  margin-left: -70px;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.carousel-action-link{
+  background: #fff;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+.carousel-action-link:hover{
+  text-decoration: underline;
+  color: $dilseprints-color-2;
+}
+
+/*.carousel-center .banner-text{
+  margin-top: 55px;
+}
+
+@media (max-width: $screen-xs-max) {
+  .carousel-center .banner-text{
+    margin-top: 8px;
+  }
+  .carousel-action-link{
+    padding: 0;
+  }
+  .carousel-header{
+    margin-top: -70px;
+  }
+  .carousel-header span{
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 16px;
+  }
+  .borwsesStaticNav div{
+    float: left;
+    width: 50%;
+    margin:px 0;
+  }
+  .shop-now-btn{
+    height: 38px;
+  }
+}*/
+
+
+.carousel .carousel .item {
+  -webkit-transition: opacity 3s;
+  -moz-transition: opacity 3s;
+  -ms-transition: opacity 3s;
+  -o-transition: opacity 3s;
+  transition: opacity 3s;
+}
+.carousel .carousel .active.left {
+  left:0;
+  opacity:0;
+  z-index:2;
+}
+.carousel .carousel .next {
+  left:0;
+  opacity:1;
+  z-index:1;
+}
+.carousel .carousel-control.right, .carousel .carousel-control.left{
+  background: none;
+}
+
+.homeCarouselVideoCt{
+  overflow: hidden;
+}
+
+.carouselVideoCt video, .carouselVideoCt img{
+  position: relative;
+  width: 100vw;
+}
+
+.carousel-image-container {
+  display: none;
+  position: relative;
+  padding:0;
+  &:first-child {
+    display: block;
+  }
+}
+
+/*.carousel-header, .banner-text {
+  opacity: 300ms;
+  transition: 250ms;
+  &.transitioning {
+    opacity: 0;
+    transition: 300ms;
+  }
+}*/
+
+.carousel-content{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  z-index: 1000;
+  width: 40%;
+  margin-left: 10%;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+
+#home_page_main_carousel {
+
+  position: relative;
+  overflow: hidden;
+
+  .left , .right{
+    position: absolute;
+    top: 55%;
+    z-index: 1000;
+    margin-top: -67px;
+  }
+
+  .right {
+    right: 0
+  }
+
+  .left {
+    left: 0
+  }
+
+  @media (min-width: $screen-md-min) {
+    .carousel-indicators{
+      bottom:10px;
+    }
+    .glyphicon-chevron-left{
+      left: 0px;
+      margin-left: 0;
+    }
+    .glyphicon-chevron-right{
+      right: 0px;
+      margin-right: 0;
+    }
+    &:hover{
+      .glyphicon-chevron-left,.glyphicon-chevron-right{
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.carousel-carousel-slide {
+  width: 100vw;
+  & img {
+
+  }
+}
+.contentSegment{
+  height: 100%;
+  display: table;
+  margin: 0 auto;
+}
+.contentBox{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px;
+}
+.carousel-button{
+  margin-top: 30px;
+}
+#button-mobile-heading{
+  text-align: center;
+  margin: 22px 0;
+}
+#button-mobile-txt .shop-now-btn{
+  border: #050500 solid 2px;
+  margin: 22px 0;
+  text-decoration: none;
+}
+.for-mobile-devices{
+  text-align:center;
+}
+.borwsesStaticNav{
+  border-top:solid 1px #e5e5e5
+}
+
+.borwsesStaticNav.visible-only-xs div{
+  margin:10px 0;
+}
+
+.fr .borwsesStaticNav div{
+  @media (min-width: $screen-sm-min) and  (max-width : 680px)   {
+    margin:10px 12px ;
+  }
+}
+
+
+
+.btn-secondary.c-t-a-on-carousel-banner{
+  background-color: transparent;
+  pointer-events: auto;
+}
+.btn-secondary.c-t-a-on-carousel-banner:hover{
+  background-color: #050500;
+}
+
+
+/*  Radio: Position new left  */
+.carousel-content.text_alignment_left {
+
+  width: 40%;
+  margin-left: 4%;
+
+}
+
+
+/*  Radio: Position new right  */
+
+.carousel-content.text_alignment_right {
+
+  width: 40%;
+  margin-left: 56%;
+
+}
+
+/*  Radio: Position new center  */
+
+.carousel-content.text_alignment_center {
+
+  width: 40%;
+  margin-left: 30%;
+
+}
+
+.carousel-content.text_color_black .descriptionHeader.heading-1,
+.carousel-content.text_color_black .descriptioncontent.text-1{
+  color: #050500;
+}
+.carousel-content.text_color_white .descriptionHeader.heading-1,
+.carousel-content.text_color_white .descriptioncontent.text-1{
+  color: white;
+}
+
+.carousel-content.text_color_black .c-t-a-on-carousel-banner{
+  background-color: #050500;
+  color: #fff;
+  border: none;
+  line-height: 44px;
+}
+.carousel-content.text_color_black .c-t-a-on-carousel-banner:hover{
+  background-color: #fff;
+  color: #050500;
+}
+
+
+.carousel-content.text_color_white .c-t-a-on-carousel-banner{
+  background-color: #fff;
+  color: #050500;
+  border: none;
+  line-height: 44px;
+}
+.carousel-content.text_color_white .c-t-a-on-carousel-banner:hover{
+  background-color: #050500;
+  color: #fff;
+}
+
+/*  Additional Checkbox: Black Text-Shadow  */
+
+.carousel-content.text_shadow_on_color_black .descriptionHeader.heading-1,
+.carousel-content.text_shadow_on_color_black .descriptioncontent.text-1 {
+  text-shadow: 0 0 100px rgba(255,255,255, 0.75), 0 0 40px rgba(255,255,255,0.7);
+}
+
+/*  Additional Checkbox: White Text-Shadow  */
+
+.carousel-content.text_shadow_on_color_white .descriptionHeader.heading-1,
+.carousel-content.text_shadow_on_color_white .descriptioncontent.text-1 {
+  text-shadow: 0 0 100px rgba(25,25,25, 0.7), 0 0 40px rgba(25,25,25,0.4);
+}
+.carousel-content .contentSegment .contentBox .contentEl .descriptionHeader.heading-1{
+  margin-bottom: 0.25em;
+  line-height: 1.25em;
+}
