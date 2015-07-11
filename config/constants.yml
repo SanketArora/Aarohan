@@ -1,0 +1,11 @@
+constants:
+
+  development:
+    root_url: '127.0.0.1:3000'
+
+  test:
+    root_url: 'http://staging.dilseprints.com/'
+
+  production:
+    root_url: 'http://dilseprints.com/'
+

@@ -79,6 +79,14 @@ $popover-arrow-color: #050500;
 $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
 //$icon-font-name: "lineto-circular-medium-s";
 
+//.custom-container {
+//  height: auto;
+//}
+//
+//.custom-container:after {
+//  content: "";
+//  display: block;
+//}
 
 .medium-1 {
   width: 8.33333%; }
@@ -290,11 +298,16 @@ $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
   margin:0;
   text-align:center;
 }
-.footer-content h3{
-  font:17px 'ProximaNova-Regular';
-  color:#666;
-  padding:0;
+.footer-content h3 {
+  font: 17px 'ProximaNova-Regular';
+  color: #666;
+  padding: 0;
 }
+
+.footer-inner-one {
+    margin-left: 20%;
+}
+
 
 .footer-inner-one h3.ft-blue-4 { font-family: "chunkfiveroman"; font-size: 18px; margin: 27px 0 15px; }
 .footer-inner-one div {
@@ -302,8 +315,8 @@ $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
 }
 .newsletter-text { color: #808080; font-family: "ProximaNova-Light"; font-size: 18px !important; line-height: 22px; margin-bottom: 2em; }
 .footer-inner-one > p { color: #666; font-family: "ProximaNova-Light"; font-size: 12px; }
-.footer-inner-one p.newsletter-view { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll 200px -15px; width: 275px; }
-.footer-inner-two h3.help-desk { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll -107px -12px; font-family: "chunkfiveroman"; font-size: 18px; margin: 18px 0 20px; padding-left: 30px; }
+.footer-inner-one p.newsletter-view { background: rgba(0, 0, 0, 0) url("images/Do-Icon.png") no-repeat scroll 200px -15px; width: 275px; }
+.footer-inner-two h3.help-desk { background: rgba(0, 0, 0, 0) url("images/Do-Icon.png") no-repeat scroll -107px -12px; font-family: "chunkfiveroman"; font-size: 18px; margin: 18px 0 20px; padding-left: 30px; }
 .contact-page h3.help-desk { background: rgba(0, 0, 0, 0) url("../images/helpdesk-icon.png") no-repeat scroll left center; font-family: "chunkfiveroman"; font-size: 18px; margin: 55px 0 20px; padding-left: 30px; }
 .news-letter-input { padding-bottom: 1em; }
 .helpdesk-text { color: #666; font-family: "ProximaNova-Light"; font-size: 18px; line-height: 22px; padding-bottom: 10px; }
@@ -324,7 +337,7 @@ $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
   height: 102.1875px;
   line-height: 16px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: 40px;
   margin-right: 0px;
   margin-top: 0px;
   padding-bottom: 0px;
@@ -363,10 +376,10 @@ $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
   width: 149px;
 }
 .do-features .features-list { }
-.features-qd { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll -826px -270px; }
-.features-cod { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll -826px -372px; }
-.features-er { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll -826px -488px; }
-.features-qa { background: rgba(0, 0, 0, 0) url("../images/Do-Icon.png") no-repeat scroll -826px -155px; }
+.features-qd { background: rgba(0, 0, 0, 0) url("/images/Do-Icon.png") no-repeat scroll -826px -270px; }
+.features-cod { background: rgba(0, 0, 0, 0) url("/images/Do-Icon.png") no-repeat scroll -826px -372px; }
+.features-er { background: rgba(0, 0, 0, 0) url("/images/Do-Icon.png") no-repeat scroll -826px -488px; }
+.features-qa { background: rgba(0, 0, 0, 0) url("/images/Do-Icon.png") no-repeat scroll -826px -155px; }
 
 
 #footer-bottom .footer-inner-three ul { display: block; list-style: outside none none; margin: 0 !important; padding: 0 0 25px 0!important; text-align: center; }
@@ -374,6 +387,26 @@ $icon-font-path: "//s3-eu-west-1.amazonaws.com/dilseprints-fonts/";
 
 .footer-inner-one h3.ft-blue-4 { font-family: "chunkfiveroman"; font-size: 18px; margin: 27px 0 15px; }
 .footer-inner-three .inline-list { padding-left: 2em; }
+
+.about_us_title {
+  color: #25292c;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about_us_text {
+  display: block;
+  line-height: 26px;
+  padding: 0px 100px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.policy-pos {
+  margin: 0px 0px 0px 0px;
+}
 
 
 

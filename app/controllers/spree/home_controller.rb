@@ -29,13 +29,13 @@ module Spree
                          active: '',
                          img_data: { 'desktop' =>
                                          {:sizes=>['900x370', '1800x740'],
-                                          :url=> 'http://www.townandcountryeventrentals.com/sites/default/files/pillow%20covers.jpg'},
+                                          :url=> 'http://d1w8j6pmwcehqo.cloudfront.net/assets/us/images/3babd2f-1435051658-des-1800x740.png'},
                                      'ipad' =>
                                          {:sizes=>['900x600', '1800x1200'],
-                                          :url=> 'http://www.townandcountryeventrentals.com/sites/default/files/pillow%20covers.jpg'},
+                                          :url=> 'http://d1w8j6pmwcehqo.cloudfront.net/assets/us/images/3babd2f-1435051658-des-1800x740.png'},
                                      'mobile'=>
                                          {:sizes=>['900x600', '1800x1200'],
-                                          :url=>'http://www.townandcountryeventrentals.com/sites/default/files/pillow%20covers.jpg'}
+                                          :url=>'http://d1w8j6pmwcehqo.cloudfront.net/assets/us/images/3babd2f-1435051658-des-1800x740.png'}
                          }
                         }
                        ]

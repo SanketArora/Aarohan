@@ -1,4 +1,4 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel home_carousel slide" data-ride="carousel">
 
   <!-- Wrapper for slides -->
 
@@ -23,7 +23,7 @@
       <!--</div>-->
     <!--</div>-->
   <!--</div>-->
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="height: 500px;">
     <% @carousel_data.each do |carousel| %>
         <div class="item <%= carousel[:active] %>">
           <img src="<%= params[:device_medium] == "web" ? carousel[:img_data]['desktop'][:url] : carousel[:img_data]['mobile'][:url]  %>" alt=<%=carousel[:header] %> >
