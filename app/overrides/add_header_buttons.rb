@@ -18,3 +18,8 @@ Deface::Override.new(:virtual_path => 'spree/shared/_main_nav_bar',
                      :name => 'mugs',
                      :insert_after => '#pillow-covers-link',
                      :text => '<li id="mugs-link" data-hook><%= link_to "Mugs Covers", "/mugs-covers" %></li>')
+
+Deface::Override.new(:virtual_path => 'spree/shared/_main_nav_bar',
+                     :name => 'all_products',
+                     :insert_after => '#mugs-link',
+                     :text => '<li id="all-products" data-hook><%= link_to "All Products", "/products" %></li>')

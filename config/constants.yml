@@ -4,8 +4,8 @@ constants:
     root_url: '127.0.0.1:3000'
 
   test:
-    root_url: 'http://staging.dilseprints.com/'
+    root_url: 'http://staging.dilseprints.com'
 
   production:
-    root_url: 'http://dilseprints.com/'
+    root_url: 'http://dilseprints.com'
 

@@ -8,5 +8,9 @@ module Spree
     def general_policy
 
     end
+
+    def faq
+
+    end
   end
 end

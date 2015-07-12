@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   match 'about-us', :to => 'spree/static#about_us', via: [:get]
   match 'our-policy', :to => 'spree/static#general_policy', via: [:get]
+  match 'faq', :to => 'spree/static#faq', via: [:get]
   mount Spree::Core::Engine, :at => '/'
           # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
